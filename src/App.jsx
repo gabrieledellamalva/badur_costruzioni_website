@@ -24,6 +24,7 @@ import {
   Wrench,
   Scale
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 /* ============================================================
    BADUR COSTRUZIONI E RISTRUTTURAZIONI
@@ -898,6 +899,7 @@ const App = () => {
       <DoveOperiamo />
       <ContactForm />
       <Footer />
+      <Analytics />
     </div>
   );
 };
