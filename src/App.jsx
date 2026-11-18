@@ -195,7 +195,7 @@ const Hero = () => {
 
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6 leading-tight tracking-tight animate-fade-in-up delay-100">
           Costruzioni e Ristrutturazioni{' '}
-          <span className="text-amber-500">Badur</span>
+          <span className="hero-gold text-amber-500">Badur</span>
         </h1>
 
         <p className="text-lg sm:text-xl md:text-2xl text-stone-300 mb-4 max-w-3xl mx-auto font-light leading-relaxed animate-fade-in-up delay-200">
@@ -211,11 +211,11 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up delay-400">
           <a
             href="#contatti"
-            className="group bg-amber-600 hover:bg-amber-500 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:shadow-xl hover:shadow-amber-600/30 flex items-center gap-2 transform hover:-translate-y-1"
+            className="hero-cta group bg-amber-600 text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center gap-2"
           >
             <Phone className="w-5 h-5" />
             Sopralluogo Gratuito
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            <ArrowRight className="w-5 h-5" />
           </a>
           <a
             href="#servizi"
